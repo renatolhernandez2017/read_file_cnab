@@ -1,2 +1,0 @@
-class StatusDetail < ApplicationRecord
-end
