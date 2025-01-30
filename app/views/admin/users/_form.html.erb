@@ -1,0 +1,16 @@
+<%= turbo_frame_tag "form_user" do %>
+  <%= form_with model: user, url: user.persisted? ? admin_user_path(user) : admin_users_path do |f| %>
+    <section class="h-100 m-5 gap-5">
+      <section class="grid grid-cols-2 gap-5 p-5">
+        <%= render TextFieldComponent.new(form: f, field_name: :name, error_message: user.errors.messages[:name]) %>
+        <%= render TextFieldComponent.new(form: f, field_name: :role, error_message: user.errors.messages[:role]) %>
+      </section>
+
+      <section class="grid grid-cols-1 gap-5 p-5">
+        <%= render TextFieldComponent.new(form: f, field_name: :email, error_message: user.errors.messages[:email]) %>
+      </section>
+    </section>
+
+    <%= render ButtonComponent.new(form: f, label: 'Salvar') %>
+  <% end %>
+<% end %>

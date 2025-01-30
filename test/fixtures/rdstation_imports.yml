@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  uuid: 
+  event_identifier: 2024-07-17
+  event_timestamp: 2024-07-17
+  payload: 
+
+two:
+  uuid: 
+  event_identifier: 2024-07-17
+  event_timestamp: 2024-07-17
+  payload: 

@@ -1,0 +1,95 @@
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+DEPRECATION WARNING: `Rails.application.secrets` is deprecated in favor of `Rails.application.credentials` and will be removed in Rails 7.2. (called from <top (required)> at /workspaces/consult/config/environment.rb:5)
+DEPRECATION WARNING: `Rails.application.secrets` is deprecated in favor of `Rails.application.credentials` and will be removed in Rails 7.2. (called from <main> at /workspaces/consult/config/environment.rb:5)
+Initializing websocket
+Initializing websocket
+Started GET "/" for 127.0.0.1 at 2024-10-08 18:28:45 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 5727)
+  Rendered layouts/_favicons.html.erb (Duration: 0.3ms | Allocations: 669)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 100)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 103)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 32108)
+Completed 200 OK in 1033ms (Views: 27.4ms | ActiveRecord: 0.0ms | Allocations: 1720310)
+
+
+Started GET "/assets/application-bf178ac1dcb08208158afb3d62354553ddbca6d3.css" for 127.0.0.1 at 2024-10-08 18:28:46 +0000
+Started GET "/assets/application-82829fc8d6c40ded29a3ba619c65930023cdc92d.js" for 127.0.0.1 at 2024-10-08 18:28:46 +0000
+Removed sourceMappingURL comment for missing asset '/assets/application.js.map' from /assets/application.js.map
+Started GET "/assets/fonts/MADECanvasRegularPERSONALUSE-e15c080b74234d13355ac8faba26e71a3c9daea6.otf" for 127.0.0.1 at 2024-10-08 18:28:47 +0000
+reload
+[ActionCable] Broadcasting to reload: {}
+reload
+[ActionCable] Broadcasting to reload: {}
+reload
+[ActionCable] Broadcasting to reload: {}
+Started GET "/" for 127.0.0.1 at 2024-10-08 18:29:07 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 110)
+  Rendered layouts/_favicons.html.erb (Duration: 0.3ms | Allocations: 116)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 18362)
+Completed 200 OK in 22ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 20407)
+
+
+reload
+[ActionCable] Broadcasting to reload: {}
+reload
+[ActionCable] Broadcasting to reload: {}
+reload
+[ActionCable] Broadcasting to reload: {}
+Started GET "/" for 127.0.0.1 at 2024-10-08 18:29:19 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 109)
+  Rendered layouts/_favicons.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2758)
+Completed 200 OK in 11ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 4800)
+
+
+reload
+reload
+[ActionCable] Broadcasting to reload: {}
+[ActionCable] Broadcasting to reload: {}
+reload
+[ActionCable] Broadcasting to reload: {}
+Started GET "/" for 127.0.0.1 at 2024-10-08 18:29:36 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 368)
+  Rendered layouts/_favicons.html.erb (Duration: 0.2ms | Allocations: 116)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 100)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 3008)
+Completed 200 OK in 11ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 5050)
+
+
+reload
+[ActionCable] Broadcasting to reload: {}
+reload
+[ActionCable] Broadcasting to reload: {}
+reload
+[ActionCable] Broadcasting to reload: {}
+Started GET "/" for 127.0.0.1 at 2024-10-08 18:29:41 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 109)
+  Rendered layouts/_favicons.html.erb (Duration: 0.1ms | Allocations: 116)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2730)
+Completed 200 OK in 11ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 4767)
+
+

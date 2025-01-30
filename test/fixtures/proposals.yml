@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  opportunity: one
+  contact: one
+  title: MyString
+  content: MyText
+  status: 1
+  status_detail: one
+
+two:
+  opportunity: two
+  contact: two
+  title: MyString
+  content: MyText
+  status: 1
+  status_detail: two

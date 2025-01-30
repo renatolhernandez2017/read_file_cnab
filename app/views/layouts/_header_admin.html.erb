@@ -1,0 +1,27 @@
+<div class="navbar border-b bg-white">
+  <div class="flex-1">
+    <%= link_to 'Consultar', admin_root_path, class: "ml-4 text-xl max-[768px]:text-sm" %>
+  </div>
+
+  <div class="flex">
+    <a class="btn btn-ghost text-xl max-[768px]:text-sm"><%= current_user.name %></a>
+  </div>
+
+  <div class="flex-none mr-5">
+    <%= link_to destroy_user_session_path, data: { turbo_method: :delete } do %>
+      <span class="material-symbols-outlined" title="Sair">logout</span>
+    <% end %>
+  </div>
+</div>
+
+<!--- Para Celular --->
+<div class="navbar max-[768px]:block bg-white border lg:hidden w-screen text-xs">
+  <div class="navbar max-[768px]:block bg-white">
+    <div class="flex-1 hover:bg-secondary rounded p-2 <%= 'bg-secondary text-white' if current_page?(admin_users_path) %>">
+      <%= link_to admin_users_path do %>
+        <span>Usuários</span>
+        <div class="badge badge-secondary badge-lg text-white hover:text-white text-xs"><%= @users_count %></div>
+      <% end %>
+    </div>
+  </div>
+</div>

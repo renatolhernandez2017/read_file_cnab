@@ -1,0 +1,85 @@
+<div class="flex justify-end">
+  <button onclick="document.getElementById('new_user').showModal();" class="btn bg-secondary text-white hover:text-white">
+    Cadastrar
+  </button>
+</div>
+
+<div class="grid grid-cols-12">
+  <div class="col-start-1 col-span-12">
+    <div class="overflow-x-auto font-jost">
+      <table class="table">
+        <thead class="max-[768px]:text-[0.60rem]">
+          <tr>
+            <th>Nome</th>
+            <th class="max-[768px]:hidden">E-mail</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+
+        <tbody class="max-[768px]:text-[0.60rem]">
+          <% @users.each do |user| %>
+            <tr>
+              <td>
+                <div class="flex items-center gap-3">
+                  <div class="avatar">
+                    <div class="w-12 h-12 flex items-center justify-center rounded-full ring ring-dsop-opaque-gray ring-offset-base-100 ring-offset-2 bg-dsop-high-light-gray">
+                      <div class="flex w-full h-full items-center justify-center">
+                        <div id='preview' data-action="click->upload#openFileInput">
+                          <% if user.image.present? %>
+                            <%= image_tag(user.image, class: "mask mask-squircle h-12 w-12") %>
+                          <% else %>
+                            <span class="material-symbols-outlined">add_photo_alternate </span>
+                          <% end %>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class=""><%= user.name %></div>
+                    <div class="text-sm opacity-50"><%= user.role %></div>
+                  </div>
+                </div>
+              </td>
+
+              <td class="max-[768px]:hidden"><%= user.email %></td>
+
+              <td>
+                <button onclick="document.getElementById('edit_user<%= user.id %>').showModal();" title="Editar" class="p-2 rounded-full">
+                  <span class="material-symbols-outlined">edit</span>
+                </button>
+
+                <dialog id="edit_user<%= user.id %>" class="modal modal-bottom sm:modal-middle">
+                  <div class="modal-box">
+                    <form method="dialog">
+                      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+
+                    <h3 class="text-lg">Editar Usuário</h3>
+
+                    <%= render "form", user: user %>
+                  </div>
+                </dialog>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="flex items-center justify-center <%= 'border-t border-b' if @pagy.pages > 1 %> p-2">
+  <%== pagy_nav(@pagy) if @pagy.pages > 1 %>
+</div>
+
+<dialog id="new_user" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+    </form>
+
+    <h3 class="text-lg">Cadastrar Usuário</h3>
+    <%= render "form", user: @user %>
+  </div>
+</dialog>

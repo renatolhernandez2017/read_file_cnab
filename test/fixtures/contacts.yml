@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+lead:
+  user: charles
+  full_name: "Bob Silva"
+  email: "bob.silva@dsop.com.br"
+  mobile: "11 993410342"
+  phone: "11 993410342"
+  position: "Desenvolvedor"
+  status: "lead_new"
+  status_detail: aguardando

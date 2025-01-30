@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rdstation_import: one
+  contact: one
+
+two:
+  rdstation_import: two
+  contact: two

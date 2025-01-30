@@ -1,0 +1,11 @@
+<div class="fixed top-0 right-5 max-[768px]:right-36 p-5" id="shopping-cart">
+  <%= link_to carts_path, class: "relative bg-primary rounded-full w-12 h-12 shadow-lg hover:bg-primary focus:outline-none flex items-center justify-center" do %>
+    <!-- Ícone do carrinho -->
+    <span class="material-symbols-outlined text-black">shopping_cart</span>
+
+    <!-- Contador de itens -->
+    <span id="cart-count" class="absolute top-1 right-0 inline-flex items-center justify-center px-2 py-1 text-xs leading-none text-black font-bold bg-primary rounded-full transform translate-x-1/2 -translate-y-1/2 text-jost">
+      0
+    </span>
+  <% end %>
+</div>

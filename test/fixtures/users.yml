@@ -1,0 +1,5 @@
+charles:
+  email: "charles@dsop.com.br"
+  encrypted_password: <%= Devise::Encryptor.digest(User, '123123') %>
+  name: "Charles"
+  role: :admin
