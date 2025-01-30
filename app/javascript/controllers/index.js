@@ -4,12 +4,6 @@
 
 import { application } from "./application"
 
-import AutoExpandTextareaController from "./auto_expand_textarea_controller"
-application.register("auto-expand-textarea", AutoExpandTextareaController)
-
-import AutosubmitselectController from "./autosubmitselect_controller"
-application.register("autosubmitselect", AutosubmitselectController)
-
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
 

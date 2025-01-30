@@ -69,3 +69,231 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 9ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2377)
 
 
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:34:52 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layouts/_favicons.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2028)
+Completed 200 OK in 10ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2904)
+
+
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:34:59 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layouts/_favicons.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2017)
+Completed 200 OK in 11ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2892)
+
+
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:37:01 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layouts/_favicons.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 10826)
+Completed 200 OK in 11ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 11704)
+
+
+Started GET "/assets/application-bab2c5f3a26ac682553dc6fb80ee398532a9c8f2.js" for 127.0.0.1 at 2025-01-30 21:37:01 +0000
+Removed sourceMappingURL comment for missing asset '/assets/application.js.map' from /assets/application.js.map
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:37:03 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layouts/_favicons.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 10832)
+Completed 200 OK in 11ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 11712)
+
+
+Started GET "/assets/application-e1434b4b1ee0cc3263b7c4119a75e324247d2261.js" for 127.0.0.1 at 2025-01-30 21:37:03 +0000
+Removed sourceMappingURL comment for missing asset '/assets/application.js.map' from /assets/application.js.map
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:37:08 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layouts/_favicons.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 10838)
+Completed 200 OK in 14ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 11457)
+
+
+Started GET "/assets/application-327c46756d3e74953092812466544c2dbe8d1608.js" for 127.0.0.1 at 2025-01-30 21:37:08 +0000
+Removed sourceMappingURL comment for missing asset '/assets/application.js.map' from /assets/application.js.map
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:37:18 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layouts/_favicons.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 10828)
+Completed 200 OK in 16ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 11453)
+
+
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:37:47 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layouts/_favicons.html.erb (Duration: 0.1ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2044)
+Completed 200 OK in 10ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 2919)
+
+
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:37:49 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layouts/_favicons.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 10833)
+Completed 200 OK in 12ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 11708)
+
+
+Started GET "/assets/application-2a2d0c40a7272bccf8975d5a1e34816eab9cf253.js" for 127.0.0.1 at 2025-01-30 21:37:49 +0000
+Removed sourceMappingURL comment for missing asset '/assets/application.js.map' from /assets/application.js.map
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:37:51 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layouts/_favicons.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2041)
+Completed 200 OK in 10ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2916)
+
+
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:37:53 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layouts/_favicons.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2011)
+Completed 200 OK in 15ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 2886)
+
+
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:38:03 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layouts/_favicons.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 10827)
+Completed 200 OK in 25ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 11445)
+
+
+Started GET "/assets/application-1e1fe70bbf58854eebf05e6e2fc891b9c663aaf9.js" for 127.0.0.1 at 2025-01-30 21:38:03 +0000
+Removed sourceMappingURL comment for missing asset '/assets/application.js.map' from /assets/application.js.map
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:38:11 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layouts/_favicons.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1766)
+Completed 200 OK in 12ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2636)
+
+
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:38:12 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layouts/_favicons.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1763)
+Completed 200 OK in 13ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2900)
+
+
+reload
+[ActionCable] Broadcasting to reload: {}
+reload
+[ActionCable] Broadcasting to reload: {}
+reload
+[ActionCable] Broadcasting to reload: {}
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:40:05 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 114)
+  Rendered layouts/_favicons.html.erb (Duration: 0.9ms | Allocations: 116)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2747)
+Completed 200 OK in 10ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 4786)
+
+
+reload
+reload
+[ActionCable] Broadcasting to reload: {}
+[ActionCable] Broadcasting to reload: {}
+reload
+[ActionCable] Broadcasting to reload: {}
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:40:07 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 367)
+  Rendered layouts/_favicons.html.erb (Duration: 0.1ms | Allocations: 116)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 3015)
+Completed 200 OK in 10ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 5053)
+
+
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:40:56 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layouts/_favicons.html.erb (Duration: 0.1ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 10829)
+Completed 200 OK in 16ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 11704)
+
+
+Started GET "/assets/application-2b58f2af41780c3976b6dfae864a1cda18f9293c.js" for 127.0.0.1 at 2025-01-30 21:40:56 +0000
+Removed sourceMappingURL comment for missing asset '/assets/application.js.map' from /assets/application.js.map
+Started GET "/" for 127.0.0.1 at 2025-01-30 21:41:01 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 19)
+  Rendered layouts/_favicons.html.erb (Duration: 0.1ms | Allocations: 16)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1498)
+Completed 200 OK in 13ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2635)
+
+

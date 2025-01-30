@@ -8293,46 +8293,13 @@ var application = Application.start();
 application.debug = false;
 window.Stimulus = application;
 
-// app/javascript/controllers/auto_expand_textarea_controller.js
-var auto_expand_textarea_controller_default = class extends Controller {
-  static targets = ["textarea"];
-  connect() {
-    this.adjustHeight();
-    this.observeTabs();
-  }
-  adjustHeight() {
-    this.textareaTargets.forEach((textarea) => {
-      textarea.style.height = "auto";
-      textarea.style.height = textarea.scrollHeight + "px";
-    });
-  }
-  input() {
-    this.adjustHeight();
-  }
-  observeTabs() {
-    const tabs = document.querySelectorAll('input[name="tab_graphics"]');
-    tabs.forEach((tab) => {
-      tab.addEventListener("change", () => {
-        setTimeout(() => this.adjustHeight(), 50);
-      });
-    });
-  }
-};
-
-// app/javascript/controllers/autosubmitselect_controller.js
-var autosubmitselect_controller_default = class extends Controller {
-  connect() {
-  }
-  submit() {
-    console.log("submited");
-    this.element.requestSubmit();
-  }
-};
-
 // app/javascript/controllers/hello_controller.js
 var hello_controller_default = class extends Controller {
   connect() {
-    this.element.textContent = "Hello World!";
+    console.log("Hello Controller conectado!");
+  }
+  sayHello() {
+    alert("Ol\xE1 do Hello Controller!");
   }
 };
 
@@ -11865,8 +11832,6 @@ var upload_controller_default = class extends Controller {
 };
 
 // app/javascript/controllers/index.js
-application.register("auto-expand-textarea", auto_expand_textarea_controller_default);
-application.register("autosubmitselect", autosubmitselect_controller_default);
 application.register("hello", hello_controller_default);
 application.register("mask", mask_controller_default);
 application.register("upload", upload_controller_default);
