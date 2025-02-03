@@ -1,9 +1,0 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-aguardando:
-  description: Aguardando
-  status: lead_new
-
-carrinho_abandonado:
-  description: Carrinho abandonado
-  status: lead_nutrition
