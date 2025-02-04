@@ -1,0 +1,12 @@
+<div class="modal-box">
+  <h3 class="text-lg font-bold"><%= session[:message] %></h3>
+  <p class="py-4">Deseja abrir o conteúdo anexado?</p>
+
+  <div class="modal-action justify-between">
+    <form method="dialog" class="flex-1">
+      <button class="btn">Fechar</button>
+    </form>
+
+    <%= button_to "Acessar conteúdo", uploads_path, method: :get, class: "btn bg-info hover:bg-info text-white flex-1 text-right" %>
+  </div>
+</div>
