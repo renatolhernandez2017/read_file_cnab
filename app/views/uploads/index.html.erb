@@ -1,0 +1,58 @@
+<div class="grid grid-cols-12 p-12 w-full text-white">
+  <div class="col-start-2 col-span-10">
+    <h1 class="text-center text-xl">Lista de Ocorrência</h1>
+
+    <table class="table mt-5">
+      <thead class="text-white text-base">
+        <tr>
+          <th>Nome da Loja</th>
+          <th>Entrada</th>
+          <th>Saída</th>
+          <th>Saldo em Conta</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% @transactions.each_with_index do |transaction, index| %>
+          <tr data-controller="hello">
+            <td><%= transaction[0] %></td>
+
+            <%= render CalculatorComponent.new(transactions: transaction[1]) %>
+
+            <td class="cursor-pointer" data-action="click->hello#toggleTableTr" data-tr-id="tr_hidden_<%= index %>">
+              <details>
+                <summary></summary>
+              </details>
+            </td>
+          </tr>
+
+          <tr class="hidden" id="tr_hidden_<%= index %>">
+            <td colspan="5">
+              <table class="w-full">
+                <thead class="text-white text-base">
+                  <tr>
+                    <th>Tipo</th>
+                    <th>Data</th>
+                    <th>Valor</th>
+                    <th>CPF</th>
+                    <th>Cartão</th>
+                    <th>Hora</th>
+                    <th>Dono da Loja</th>
+                  </tr>
+                </thead>
+
+                <% transaction[1].each do |transc| %>
+                  <%= render TextFieldComponent.new(transaction: transc) %>
+                <% end %>
+              </table>
+            </td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+    <div class="flex py-5">
+      <%= link_to "Voltar", root_path, class: "btn" %>
+    </div>
+  </div>
+</div>

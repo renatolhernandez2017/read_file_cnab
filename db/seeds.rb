@@ -2,7 +2,6 @@ puts "apagando dados antigos..."
 User.destroy_all
 
 puts "Criando user Admin"
-user_1 = User.create!(name: "Caique Viana", email: "caiquelimav@gmail.com", password: "123123", role: "admin")
-user_2 = User.create!(name: "Renato Hernandez", email: "renatolhernandez@gmail.com", password: "123123", role: "admin")
+User.create!(name: "bycoders", email: "bycoders@gmail.com", password: "123456", role: "admin", hash_link: "9X6S")
 
 puts "FIM!"

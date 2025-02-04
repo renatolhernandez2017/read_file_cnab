@@ -1,4 +1,44 @@
-<div data-controller="hello">
-  <button data-action="click->hello#sayHello">Clique aqui</button>
-</div>
+<%= turbo_frame_tag "form_home", class: "p-5 text-white" do %>
+  <%= form_with(url: uploads_path, local: false, multipart: true) do |f| %>
+    <div class="hero-content">
+      <div class="col-start-1 col-span-2 px-56 -mt-12">
+        <span class="material-symbols-outlined -ml-8 text-green-700 text-4xl">eco</span>
+        <h1 class="text-4xl">bycoders_</h1>
 
+        <div class="py-64">
+          <span class="font-semibold">Código de Usuário</span>
+
+          <label class="input border-white flex items-center w-full bg-transparent gap-2" data-controller="hello">
+            <span class="material-symbols-outlined transform rotate-45">key</span>
+
+            <%= f.password_field :hash_link, id: "hash_link", required: true %>
+            <span class="material-symbols-outlined cursor-pointer ml-auto" id="toggle-password" data-action="click->hello#togglePassword">visibility_off</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="col-start-7 col-span-5 my-52">
+        <h1 class="text-2xl font-bold text-center my-5">Upload de Arquivo CNAB</h1>
+
+        <div class="border rounded-lg p-5">
+          <label class="flex flex-col gap-5">
+            <span class="font-semibold">
+              <span class="bg-purple-800">Upload de Arquivo</span>
+            </span>
+
+            <%= f.file_field :file, class: "p-2 border border-gray-300 rounded-lg", accept: ".txt", required: true %>
+          </label>
+        </div>
+
+        <div class="flex justify-center my-7">
+          <%= f.submit "Enviar e processar", class: "btn bg-info hover:bg-info text-white" %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+<% end %>
+
+<button class="hidden" id="modal_button" onclick="modals.showModal()">open modal</button>
+<dialog id="modals" class="modal">
+  <%= render 'shared/modal' %>
+</dialog>
