@@ -22,7 +22,7 @@ module.exports = {
           "base-200": "#EAEEF4",
           "base-300": "#CACEDC",
           "base-content": "#64748B",
-          info: "#e5e7eb",
+          info: "#4326c4",
           "info-content": "#121313",
           success: "#33902A",
           "success-content": "#ffffff",

@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  kind: MyString
+  date_ocurrence: 2025-01-31
+  price: 9.99
+  cpf: MyString
+  card: MyString
+  store_owner: MyString
+  store_name: MyString
+
+two:
+  kind: MyString
+  date_ocurrence: 2025-01-31
+  price: 9.99
+  cpf: MyString
+  card: MyString
+  store_owner: MyString
+  store_name: MyString
