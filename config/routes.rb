@@ -9,13 +9,9 @@ Rails.application.routes.draw do
 
   get "up" => "rails/health#show", :as => :rails_health_check
 
-  namespace :admin do
-    root "pages#index"
-
-    resources :users, only: %i[index create update]
-  end
-
   root "home#index"
+
+  resources :uploads, only: %i[index new create]
 
   ###############
   ###   API22  ###
